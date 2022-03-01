@@ -46,25 +46,27 @@
             </p>
             <!--A form to be able to send you email.-->
             <h3>Fill your e-mail, telefone and write me a message to contact me.</h3>
-            <form action="#" method="post" id="contact-form"> <!--I get an error message when I run through w3 validator and I don't know why.-->
+            <form action="#" method="post" id="contact-form">
                 <label class="standard-label" for="contact-email">Email: </label>
-                <input type="email" id="contact-email" required>
+                <br>
+                <input type="email" id="contact-email" class="form-Margins" required>
                 <br>
                 <label class="standard-label" for="contact-tel">Telephone: </label>
-                <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                <br>
+                <input type="tel" id="contact-tel" class="form-Margins" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
                 <br>
                 <label class="standard-label" for="contact-message">Message: </label>
-                <textarea required maxlength="240" id="contact-message"></textarea>
                 <br>
-                <input type="submit" value="Send message">
+                <textarea required maxlength="240" class="form-Margins" id="contact-message"></textarea>
+                <br>
+                <input type="submit" value="Send message" class="form-Margins">
             </form>
         </div>
         <footer class="page-footer"> <!--My footer on where you can contact me-->
             <h2>Find me on</h2>
             <div class="social-media">
-                <a href="#"><img src="images/icons8-github.svg" class="" alt="Github Logo"></a>
-                <a href="#"><img src="images/icons8-linkedin.svg" alt="LinkedIn Logo"></a>
-                <a href="#"><img src="images/icons8-twitter.svg" alt="Twitter Logo"></a>
+                <a href="https://github.com/FoliFF"><img src="images/icons8-github.svg" alt="Github Logo"></a>
+                <a href="https://www.linkedin.com/in/olof-jansson-6314bb51/"><img src="images/icons8-linkedin.svg" alt="LinkedIn Logo"></a>
             </div>
         </footer>
         <script src="js/tota11y.min.js"></script>
