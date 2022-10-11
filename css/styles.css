@@ -111,6 +111,13 @@ button:focus,
     border-radius: 50%;
 }
 
+.centerThumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 div,
 footer,
 header {
