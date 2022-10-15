@@ -1,10 +1,11 @@
 # Portfolio-Site
-Hisham Olof Jansson Portfolio Website and see and read how I built my own Portfolio Website with help of Career Foundry
+Olof Jansson Portfolio Website which is modified with help of [Maclinz Portfolio Framework](https://github.com/Maclinz/JS_CSS_PortfolioProject).
+Thank you for taking a look into my portfolio
 
-# Tools
+# Tools Used
 - HTML
-- CSS
-- Media Queries & Keyframes 
+- SCSS
+- JavaScript
 
 # Clone to the Repository
  git clone https://foliff.github.io/Portfolio-Site/
